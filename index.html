@@ -13,6 +13,12 @@
 
 <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
+    
+    if($(window).height() > $("body").height()){
+       $("footer").css("position", "fixed");
+    } else {
+       $("footer").css("position", "static");
+    }
     <div id="img">
         <div id="root" class="wrapper">
             <div class="container" id="root">
@@ -70,7 +76,6 @@
         <div class="container">
             <div class="text-center">
                 <p style="text-align: center"> Copyright &copy; 2020-<script>document.write(new Date().getFullYear())</script> <a href="https://github.com/D3u64l10n">D3u64l10n</a> All Rights Reserved.</p>
-                <p style="text-align: center">P4SSW0RD-G3N3R4T0R is licensed under <a href="https://github.com/D3u64l10n/P4SSW0RD-G3N3R4T0R/blob/main/LICENSE">The GNU General Public License 3.0</a>.
             </div>
         </div>
     </footer>  
@@ -79,9 +84,5 @@
     <script src="./PassGenerator.js"></script>
      
 </body>
-
-section {
-    min-height: 100vh; /* minus the height of the footer */
-}
 
 </html>
