@@ -3,7 +3,7 @@ html {
 }
 
 #img {
-    background-image: url("./wolf.jpg");
+    background-image: url("./jumbo.jpg");
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -20,10 +20,14 @@ html {
 }
 
 .button {
-    background-color: #00008B;
+    background-color: #DFCCFF;
 }
 
 .button :focus {
     outline: none;
     box-shadow: none;
+}
+
+footer {
+    background-color: #F8F9Fa;
 }
