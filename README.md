@@ -1,2 +1,2 @@
-# Password-Generator
-Hack Western 7 Project
+# P4SSW0RD-G3N3R4T0R
+
