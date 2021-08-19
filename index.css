@@ -20,14 +20,10 @@ html {
 }
 
 .button {
-    background-color: #0C090A;
+    background-color: #00008B;
 }
 
 .button :focus {
     outline: none;
     box-shadow: none;
-}
-
-footer {
-    background-color: #FFFFFF;
 }
