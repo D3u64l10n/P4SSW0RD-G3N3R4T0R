@@ -28,10 +28,6 @@ html {
     box-shadow: none;
 }
 
-section {
-    min-height: 100vh; /* minus the height of the footer */
-}
-
 footer {
     background-color: #000000;
 }
