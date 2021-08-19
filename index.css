@@ -27,3 +27,7 @@ html {
     outline: none;
     box-shadow: none;
 }
+
+footer {
+    background-color: #000000;
+}
