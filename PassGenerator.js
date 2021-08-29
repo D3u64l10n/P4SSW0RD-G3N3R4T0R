@@ -93,8 +93,8 @@ document.getElementById("btnGenerate").addEventListener("click", function(e) {
         alert("Not all options can be false! Ensure at least 1 is true!");
     } else {
         let currLength = document.getElementById("length").value;
-        if (currLength < 10 || currLength > 100000) {
-            alert("Length must be between 10-100000 characters");
+        if (currLength < 9 || currLength > 9999999) {
+            alert("Length must be between 9-9999999 characters");
         } else {
             length = document.getElementById("length").value;
             setPass()
